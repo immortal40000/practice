@@ -1,0 +1,23 @@
+```
+<?php
+
+
+$alphabetArr = range('a', 'z');
+print_r($alphabetArr);
+
+
+function Arr(){
+  $str = strtolower('Hello my brother!');
+  $strLength = strlen($str);
+  $result = '';
+  for ($i = 0; $i < $strLength; $i++){
+    $resultArr[] = $str[$i];
+  }
+return $resultArr;
+}
+
+$resultArr = '';
+Arr();
+print_r(array_keys($resultArr, $alphabetArr));
+
+```
